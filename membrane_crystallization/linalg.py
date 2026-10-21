@@ -140,7 +140,8 @@ def eigh_hermitian(H, cluster_tol=1e-8):
             Hu = [sum(H[a][b] * u[b] for b in range(n)) for a in range(n)]
             eigvals.append(inner(u, Hu).real)
             eigvecs.append(u)
-    return eigvals, eigvecs
+    order = sorted(range(n), key=lambda i: eigvals[i], reverse=True)
+    return [eigvals[i] for i in order], [eigvecs[i] for i in order]
 
 
 def reconstruct(vals, vecs):
