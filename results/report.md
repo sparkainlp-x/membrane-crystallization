@@ -3,7 +3,7 @@ SYNTHETIC: classical streaming estimate of an observation covariance.
 Learning curve (3 patterns, freqs [0.6, 0.3, 0.1], sigma=0.25, alpha=0.01; mean ± sd over 20 seeds; max entropy ln 8 = 2.079)
 | step | spectrum entropy | subspace fidelity | match fidelity |
 |---|---|---|---|
-| 1 | 0.000 ± 0.000 | 0.526 ± 0.128 | 0.347 ± 0.144 |
+| 1 | 0.000 ± 0.000 | 0.452 ± 0.103 | 0.320 ± 0.100 |
 | 10 | 1.531 ± 0.085 | 0.666 ± 0.077 | 0.501 ± 0.067 |
 | 25 | 1.724 ± 0.045 | 0.822 ± 0.077 | 0.691 ± 0.078 |
 | 50 | 1.775 ± 0.035 | 0.889 ± 0.057 | 0.800 ± 0.065 |
