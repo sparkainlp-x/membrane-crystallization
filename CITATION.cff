@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Membrane Crystallization: streaming PCA with a Hebbian running average (SYNTHETIC)"
+type: software
+authors:
+  - family-names: "Brisson"
+    given-names: "Jean-François"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+    affiliation: "Spark AI NLP, Fredericton, New Brunswick, Canada"
+version: 0.1.0
+license: AGPL-3.0-only
+repository-code: "https://github.com/sparkainlp-x/membrane-crystallization"
+abstract: >-
+  SYNTHETIC. Standard-library Python package for streaming PCA: the Hebbian
+  update W <- (1 - alpha) W + alpha |x><x| is an exponentially weighted
+  running estimate of the observation covariance, and its top-K
+  eigenvectors are its principal components (as in Oja 1982).
+  "Crystallization" is a descriptive label only. Includes a Jacobi
+  eigensolver for complex Hermitian matrices that handles repeated
+  eigenvalues, and seeded sweeps measuring the learning curve, the
+  forgetting window (about 1/alpha), residue-whiteness controls (which
+  show the metric does not separate patterns from pure noise) and
+  self-recreation chains, whose fidelity decays over 20 generations.
+keywords:
+  - "streaming-pca"
+  - "hebbian-learning"
+  - "covariance-estimation"
+  - "eigensolver"
+  - "holographic-memory"
+  - "synthetic"
+  - "python"
+references:
+  - type: article
+    title: "Simplified neuron model as a principal component analyzer"
+    authors:
+      - family-names: "Oja"
+        given-names: "Erkki"
+    year: 1982
+    journal: "Journal of Mathematical Biology"
+    volume: 15
+    issue: "3"
+    start: 267
+    end: 273
+    doi: "10.1007/BF00275687"
+  - type: book
+    title: "The Organization of Behavior: A Neuropsychological Theory"
+    authors:
+      - family-names: "Hebb"
+        given-names: "Donald O."
+    year: 1949
+    publisher:
+      name: "Wiley"
