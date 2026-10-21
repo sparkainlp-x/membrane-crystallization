@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: Membrane Crystallization
+version: 0.1.0
+date-released: 2026-10-21
+authors:
+  - family-names: Lee
+    given-names: Mun Seok
+license: AGPL-3.0-only
+repository-code: https://github.com/sparkainlp-x
+abstract: >-
+  Online Hebbian crystallization of patterns from a noisy
+  observation stream in a complex holographic memory: spectrum
+  entropy tracking, extraction fidelity (subspace and per-pattern),
+  residue whiteness as the completeness criterion, and
+  self-recreation chains measuring the horizon of iterative
+  re-derivation. Stdlib-only, including a cyclic Jacobi Hermitian
+  eigensolver.
+keywords:
+  - holographic-memory
+  - hebbian-learning
+  - crystallization
+  - self-recreation
+  - wave-computing
