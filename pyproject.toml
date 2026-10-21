@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "membrane-crystallization"
+version = "0.1.0"
+description = "SYNTHETIC streaming PCA: a Hebbian running covariance estimate, its forgetting window and its controls (standard library only)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "AGPL-3.0-only"}
+authors = [{name = "Jean-François Brisson"}]
+dependencies = []
+
+[project.scripts]
+membrane-crystallization = "membrane_crystallization.__main__:main"
+
+[tool.setuptools]
+packages = ["membrane_crystallization"]
