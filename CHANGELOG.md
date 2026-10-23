@@ -2,6 +2,7 @@
 
 ## 0.1.0 (2026-10-22)
 
+- Archived on Zenodo: version DOI [10.5281/zenodo.23583050](https://doi.org/10.5281/zenodo.23583050), concept DOI [10.5281/zenodo.23583049](https://doi.org/10.5281/zenodo.23583049).
 - First commit: the package exactly as received (`spec/`).
 - Authorship: Jean-François Brisson. Mun Seok Lee is credited in the acknowledgements only.
 - Naming: the update rule is described as what it is, an exponentially weighted running estimate of the observation covariance whose top-K eigenvectors are its principal components (streaming PCA, Oja 1982). "Crystallization" stays as a descriptive label.

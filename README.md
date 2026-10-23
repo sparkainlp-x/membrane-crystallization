@@ -1,5 +1,7 @@
 # Membrane Crystallization
 
+Software DOI for v0.1.0: [10.5281/zenodo.23583050](https://doi.org/10.5281/zenodo.23583050) (all versions: [10.5281/zenodo.23583049](https://doi.org/10.5281/zenodo.23583049)).
+
 **Live demo:** [Holographic Thoughts](https://sparkainlp-x.github.io/holographic-thoughts/) (interactive browser view; synthetic, classical simulation; measured numbers are in this repo)
 
 A small, standard-library Python package for streaming PCA with a Hebbian running average. It learns principal components from a stream of noisy observations and measures how fast it learns, how fast it forgets, and what happens when each generation learns only from the previous one's output.
