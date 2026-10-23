@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.0 (2026-10-22)
 
 - First commit: the package exactly as received (`spec/`).
 - Authorship: Jean-François Brisson. Mun Seok Lee is credited in the acknowledgements only.

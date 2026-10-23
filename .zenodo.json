@@ -1,6 +1,7 @@
 {
   "title": "Membrane Crystallization: streaming PCA with a Hebbian running average (SYNTHETIC)",
   "version": "0.1.0",
+  "publication_date": "2026-10-22",
   "upload_type": "software",
   "description": "<p>SYNTHETIC. Standard-library Python package for streaming PCA: the Hebbian update W &lt;- (1 - alpha) W + alpha |x&gt;&lt;x| is an exponentially weighted running estimate of the observation covariance, and its top-K eigenvectors are its principal components (as in Oja 1982). 'Crystallization' is a descriptive label only. Includes a Jacobi eigensolver for complex Hermitian matrices that handles repeated eigenvalues, and seeded sweeps measuring the learning curve, the forgetting window (about 1/alpha), residue-whiteness controls (which show the metric does not separate patterns from pure noise) and self-recreation chains, whose fidelity decays over 20 generations.</p><p>Acknowledgement: Mun Seok Lee, credited on the original package kept in spec/. No endorsement implied.</p>",
   "creators": [
@@ -13,14 +14,35 @@
   "license": "AGPL-3.0-only",
   "access_right": "open",
   "language": "eng",
-  "keywords": ["streaming PCA", "Hebbian learning", "covariance estimation", "eigensolver", "holographic memory", "synthetic", "Python"],
+  "keywords": [
+    "streaming PCA",
+    "Hebbian learning",
+    "covariance estimation",
+    "eigensolver",
+    "holographic memory",
+    "synthetic",
+    "Python"
+  ],
   "related_identifiers": [
-    {"identifier": "10.1007/BF00275687", "relation": "references", "scheme": "doi", "resource_type": "publication-article"},
-    {"identifier": "https://github.com/sparkainlp-x/membrane-crystallization", "relation": "isSupplementTo", "scheme": "url"}
+    {
+      "identifier": "10.1007/BF00275687",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://github.com/sparkainlp-x/membrane-crystallization",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
   ],
   "references": [
     "Oja, E. (1982). Simplified neuron model as a principal component analyzer. Journal of Mathematical Biology, 15(3), 267-273. https://doi.org/10.1007/BF00275687",
     "Hebb, D. O. (1949). The Organization of Behavior: A Neuropsychological Theory. New York: Wiley."
   ],
-  "communities": [{"identifier": "spark-ai-nlp"}]
+  "communities": [
+    {
+      "identifier": "spark-ai-nlp"
+    }
+  ]
 }
