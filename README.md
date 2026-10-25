@@ -112,11 +112,11 @@ See [DESIGN.md](DESIGN.md) for the reasoning and the eigensolver fix.
 
 ## Provenance
 
-The package as received is kept unchanged in [spec/](spec/). [CHANGELOG.md](CHANGELOG.md) lists what changed.
+A package received under Mun Seok Lee's name, which lists him as sole author under AGPL-3.0-only, is kept unchanged in [spec/](spec/). We could not independently verify who wrote it. The main code in this repository is derived from it. The package was substantially rewritten: `membrane_crystallization/linalg.py` is about 23% line-similar to the received `crystal.py`, `stream.py` is about 19% similar, and `tests/test_stream.py` is about 26% similar to the received `tests.py`. The update rule and the overall idea come from the received package; the eigensolver fix, sweeps, controls, validation, CLI and CI were added by this project. Line similarity here comes from a plain diff, not from a review of intent. [CHANGELOG.md](CHANGELOG.md) lists the changes. Mun Seok Lee is not an author of this release, and he has not reviewed or endorsed this software.
 
 ## Acknowledgements
 
-Thanks to Mun Seok Lee, who is credited on the original package kept in [spec/](spec/). The acknowledgement does not imply his endorsement of this code or its conclusions.
+Thanks to Mun Seok Lee for the package received under his name (see Provenance above). This is an acknowledgement only: it implies no endorsement of this code or its conclusions.
 
 ## References
 
